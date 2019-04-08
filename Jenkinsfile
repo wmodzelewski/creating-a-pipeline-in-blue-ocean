@@ -14,7 +14,7 @@ pipeline {
     }
     stage('can') {
       steps {
-        input(message: 'qq', id: 'ww', ok: 'sss')
+        input(message: 'qq', id: 'ww', ok: 'sss88')
       }
     }
   }

@@ -12,5 +12,10 @@ pipeline {
         sh 'npm install'
       }
     }
+    stage('can') {
+      steps {
+        input(message: 'qq', id: 'ww', ok: 'sss')
+      }
+    }
   }
 }
